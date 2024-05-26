@@ -1,2 +1,2 @@
 # sign-up-form
-A sign-up form utulising HTML, CSS and a bit of JS
+A sign-up form utilising HTML, CSS and a bit of JS
