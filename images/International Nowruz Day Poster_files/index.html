@@ -1,0 +1,13 @@
+
+<!-- saved from url=(0019)https://a.visme.co/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+    function onMessage(ev) {
+        if (!ev.isTrusted || ev.origin != 'https://dashboard.visme.co') return;
+        if (ev.data && ev.data.aid) {
+            localStorage.setItem('aid', ev.data.aid);
+        }
+    }
+    window.addEventListener('message', onMessage);
+    if (parent)parent.postMessage({stats: 'ready', aid: localStorage.getItem('aid') || ''}, '*');
+</script><script defer="" src="./vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon="{&quot;rayId&quot;:&quot;88abd8fccbfd3afe&quot;,&quot;version&quot;:&quot;2024.4.1&quot;,&quot;token&quot;:&quot;9d47e800619f4bacb18b2f3e08467f1b&quot;}" crossorigin="anonymous"></script>
+</head><body></body></html>
